@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "pokemonfont";
+  src: local("pokemonfont"),
+   url("./fonts/Pokemon\ Solid.ttf") format("truetype");
+  /* font-weight: bold; */
+  }
+
+  @font-face {
+    font-family: "thick";
+    src: local("thick"),
+     url("./fonts/Legothick.ttf") format("truetype");
+    /* font-weight: bold; */
+    }
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +26,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
