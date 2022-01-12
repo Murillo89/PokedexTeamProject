@@ -27,7 +27,7 @@ render(
       <Routes>
         {/* <Route exact path="/Home" element={ <Home /> } /> */}
       </Routes>
-    <Error />
+    <Home />
   </BrowserRouter>
   </React.StrictMode>,
   rootElement
