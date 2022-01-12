@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/Home';
 import Pokemon from './components/Pokemon';
 import Header from './components/Header';
-// import Error from './components/Error'
+import Error from './components/Error'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BrowserRouter } from "react-router-dom";
 
@@ -27,7 +27,7 @@ render(
       <Routes>
         {/* <Route exact path="/Home" element={ <Home /> } /> */}
       </Routes>
-    <Home />
+    <Error />
   </BrowserRouter>
   </React.StrictMode>,
   rootElement
